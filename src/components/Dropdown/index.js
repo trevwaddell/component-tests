@@ -1,10 +1,9 @@
 import React from "react";
 
 // toggle open/close menu
-// selectable items
+// multi selectable items -- DONE
 // display selected item
 
 import Dropdown from "./Dropdown";
-import DropdownItem from "./DropdownItem";
 
-export { Dropdown, DropdownItem };
+export { Dropdown };

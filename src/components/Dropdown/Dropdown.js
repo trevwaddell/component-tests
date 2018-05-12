@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import DropdownItem from "./DropdownItem";
 
 class Dropdown extends Component {
   constructor(props) {
@@ -18,6 +19,8 @@ class Dropdown extends Component {
       selectedItems: this.selectedItems
     };
   }
+
+  static Item = DropdownItem;
 
   // multiselect
   updateSelected(index) {
